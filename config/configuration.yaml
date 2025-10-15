@@ -15,3 +15,7 @@ http:
     - home-assistant-docker-c947.onrender.com
     - localhost
     - 0.0.0.0
+logger:
+  default: warning
+  logs:
+    homeassistant.components.go2rtc.server: error
