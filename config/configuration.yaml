@@ -8,13 +8,11 @@ http:
   trusted_proxies:
     - 127.0.0.1
     - ::1
-    - 10.0.0.0/8
-    - 172.16.0.0/12
-    - 192.168.0.0/16
+    - 0.0.0.0/0
   trusted_hosts:
-    - home-assistant-docker-c947.onrender.com
-    - localhost
     - 0.0.0.0
+    - localhost
+    - home-assistant-docker-c947.onrender.com
 
 logger:
   default: info
