@@ -12,7 +12,7 @@ http:
     - 172.16.0.0/12
     - 192.168.0.0/16
   trusted_hosts:
-    - home-assistant-docker-c947.onrender.com
+    - https://home-assistant-docker-c947.onrender.com/
     - localhost
     - 0.0.0.0
 
